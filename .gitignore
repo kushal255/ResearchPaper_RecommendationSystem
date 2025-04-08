@@ -1,0 +1,23 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore unnecessary data folders or temp folders
+archive/
+arxiv_data_210930-054931/
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Mac system files (in case)
+.DS_Store
+
+# Ignore model weights if you don't want to upload them
+# models/*.h5
+# models/*.pkl
